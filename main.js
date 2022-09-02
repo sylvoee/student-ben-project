@@ -13,7 +13,8 @@ function interest(p, r, t){
     let i = p * r * t /100
     // console.log("Your interst is " + i);
     btnDisplayInterest.innerHTML = "Your interst after  " + t + " years of investing  $" + p +
-     " at " + r +"% rate is " + '<b>$' + i + '</b>'
+     " at " + r +"% rate is " + '<b>$' + i + '</b>';
+    inputAmount = inputRate = inputTime = "";
 
 }
 

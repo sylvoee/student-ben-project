@@ -20,6 +20,10 @@ input{
 
 }
 
+.notify{
+    display:none
+}
+
 .calculator{
     position: relative;
     left:15%;
@@ -76,5 +80,9 @@ input{
         width: 85%;
         
     }
+    
+    .notify{
+    display:inline
+}
 }
 
